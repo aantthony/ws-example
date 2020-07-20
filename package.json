@@ -1,0 +1,23 @@
+{
+  "name": "ws-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wscat -c ws://localhost:8080/ -x \"Hello\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aantthony/ws-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aantthony/ws-example/issues"
+  },
+  "homepage": "https://github.com/aantthony/ws-example#readme",
+  "dependencies": {
+    "ws": "^7.3.1",
+    "wscat": "^4.0.1"
+  }
+}
